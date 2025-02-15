@@ -1,1 +1,4 @@
-/home/austin/Sync/configs/./nvim/lua/plugins/disabled.lua
+return {
+    --disable pycodestyle
+    { "PyCQA/pycodestyle.nvim", enabled = false },
+}

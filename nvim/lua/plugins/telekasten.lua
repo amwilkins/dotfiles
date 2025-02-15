@@ -1,1 +1,4 @@
-/home/austin/Sync/configs/./nvim/lua/plugins/telekasten.lua
+return {
+    "nvim-telekasten/telekasten.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim" },
+}

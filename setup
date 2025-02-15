@@ -1,1 +1,10 @@
-/home/austin/Sync/configs/./setup
+#!/bin/bash
+
+# make directories
+#mkdir -p $HOME/.config/nvim
+
+# create Symlinks
+ln -sf Sync/configs/.bashrc $HOME/.bashrc
+ln -sfFd $HOME/Sync/configs/nvim $HOME/.config/
+ln -sf Sync/configs/.tmux.conf $HOME/.tmux.conf
+ln -sfFd Sync/bin $HOME/

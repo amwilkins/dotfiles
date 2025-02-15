@@ -1,1 +1,4 @@
-/home/austin/Sync/configs/./nvim/lua/plugins/pycodestyle.lua
+return {
+    "PyCQA/pycodestyle.nvim",
+    opts = { ignore = { "E501" } },
+}

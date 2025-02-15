@@ -1,1 +1,8 @@
-/home/austin/Sync/configs/./nvim/plugins_old/lisp-packages.lua
+
+-- uncomment to use lisp
+-- for some reason they slow down diagnostics on non-lisp programs
+-- return {
+--     "kovisoft/paredit",
+--     "monkoose/nvlime",
+--     "monkoose/parsley",
+-- }

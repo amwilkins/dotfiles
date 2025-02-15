@@ -1,1 +1,3 @@
-/home/austin/Sync/configs/./nvim/lua/plugins/calendar-vim.lua
+return {
+    { "nvim-telekasten/calendar-vim" },
+}
