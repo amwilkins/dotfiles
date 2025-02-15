@@ -1,0 +1,1 @@
+/home/austin/Sync/configs/./nvim/plugins_old/neorg.lua

@@ -1,0 +1,1 @@
+/home/austin/Sync/configs/./nvim/lua/plugins/render-markdown.lua

@@ -1,0 +1,1 @@
+/home/austin/Sync/configs/./nvim/lua/config/options.lua
