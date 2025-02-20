@@ -8,3 +8,10 @@ ln -sf Sync/configs/.bashrc $HOME/.bashrc
 ln -sfFd $HOME/Sync/configs/nvim $HOME/.config/
 ln -sf Sync/configs/.tmux.conf $HOME/.tmux.conf
 ln -sfFd Sync/bin $HOME/
+
+# copied from mabolen
+# download and unpack nerdfont
+curl -o /tmp/JetBrainsMono.zip -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip
+unzip /tmp/JetBrainsMono.zip -d ~/.local/share/fonts
+# refresh font cache and verify
+fc-cache -vf ~/.local/share/fonts/
