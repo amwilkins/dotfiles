@@ -107,6 +107,7 @@ alias n='nvim'
 alias py="python3"
 alias python="python3"
 alias ta='terraform apply -auto-approve'
+alias venv='python3 -m venv .venv && source .venv/bin/activate'
 
 # git
 alias gits="git status"
