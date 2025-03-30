@@ -23,7 +23,7 @@ return {
     "folke/trouble.nvim",
     cmd = { "Trouble" },
     keys = {
-        -- These are altered to close the previous buffer is we are leaving an unmodified QF buffer.
+        -- These are altered to close the previous buffer if we are leaving an unmodified QF buffer.
         {
             "[q",
             function()
