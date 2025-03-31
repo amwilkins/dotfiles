@@ -1,6 +1,5 @@
 -- Check if current buffer is in quickfix list
 local function is_in_quickfix(bufnr)
-    --local bufnr = vim.api.nvim_get_current_buf()
     for _, entry in ipairs(vim.fn.getqflist()) do
         if entry.bufnr == bufnr then
             return true
